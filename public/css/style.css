@@ -55,3 +55,11 @@
 .hover\:overflow-y-auto:hover {
     overflow-y: auto;
 }
+
+.dataTables_wrapper .dataTables_length select{
+    min-width: 65px;
+}
+
+.highcharts-credits{
+    display: none;
+}
