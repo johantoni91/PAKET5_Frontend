@@ -34,7 +34,7 @@
                 <div class="text-center">
                     <img src="assets/images/widgets/error.png" alt="" class="w-32 h-32 block mx-auto my-6">
                     <h1 class="font-bold text-7xl dark:text-slate-200">500!</h1>
-                    <h5 class="font-medium text-lg text-slate-400">Internal Server Error <br>(Server lagi ngamuk)
+                    <h5 class="font-medium text-lg text-slate-400">Internal Server Error
                     </h5>
                 </div>
                 <div class="mt-4">

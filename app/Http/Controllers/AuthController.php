@@ -13,9 +13,6 @@ class AuthController extends Controller
 {
     public function home()
     {
-        if (Http::get(env('SET_API', ''))->status() == 500) {
-            Alert::error('Error', 'Server sedang bermasalah');
-        }
         $data['title'] = 'Dashboard';
         return view("index", $data);
     }
@@ -26,6 +23,7 @@ class AuthController extends Controller
             Alert::error('Error', 'Server sedang bermasalah');
             return view('errors.500');
         }
+
         $data['title'] = 'Login';
         if (Session::has('user')) {
             return redirect()->route('dashboard');

@@ -612,7 +612,7 @@
                     </div><!--end col-->
                 </div><!--end inner-grid-->
                 <!-- footer -->
-                @include('partials.footer.footer')
+                @include('partials.footer')
             </div><!--end container-->
         </div>
     </div>
